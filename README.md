@@ -10,5 +10,6 @@ first run "iverilog -o Parking_TB Parking_TB.v" command, and then run "vvp Parki
 Also you can use Modelsim.
 ## Results 
 After running above commands you can see performance of the cicruit by the prepared waveforms and the printed results.
+You can refer to doc folder to see explanation of the project and refer to code folder to see code of the project. Also i prepared the output of the simulation and also the waveform and uploded in the doc file.
 ## Authers
 [Amirhossein Mohammadpour](https://github.com/amirprogrammer04)

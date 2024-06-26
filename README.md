@@ -6,8 +6,9 @@
   I use Verilog HDL to make two modules, Counter Module to simulate spending time, and the main module (Parking) that is the main system of parking managering.
 ## How to run
 You can use icarus to run verilog code 
-first run "iverilog -o Parking_TB Parking_TB.v" command, and then run "vvp Parking_TB" to simulate Parking_TB module and see results of simulation of the above moduls.
+first run "iverilog -o Parking_TB Parking_TB.v" command, and then run "vvp Parking_TB" to simulate Parking_TB module and see results of simulation of the above moduls and the waveforms.
+Also you can use Modelsim.
 ## Results 
-After running above commands you can see performance of the cicruit.
+After running above commands you can see performance of the cicruit by the prepared waveforms and the printed results.
 ## Authers
 [Amirhossein Mohammadpour](https://github.com/amirprogrammer04)

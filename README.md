@@ -15,4 +15,4 @@ You can refer to doc folder to see explanation of the project and refer to code 
 [Amirhossein Mohammadpour](https://github.com/amirprogrammer04)
 
 #Note
-First Doc file had some problem that i fixed in the second, althouth because it is after 9 a.m, first one is also Ok.  
+First Doc file had some problem that i fixed in the second one. Please refer to the second

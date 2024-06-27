@@ -14,5 +14,5 @@ You can refer to doc folder to see explanation of the project and refer to code 
 ## Authers
 [Amirhossein Mohammadpour](https://github.com/amirprogrammer04)
 
-#Note
+## Note
 First Doc file had some problem that i fixed in the second one. Please refer to the second

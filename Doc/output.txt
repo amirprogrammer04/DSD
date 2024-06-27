@@ -1,0 +1,130 @@
+VCD info: dumpfile Parking.vcd opened for output.
+time=                    0
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = x ||is_vacated_space = x 
+|| uni_parked_car =    0 || parked_car =    0 || uni_vacated_space =  500 || vacated_space =  200
+time=                    5
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    0 || uni_vacated_space =  500 || vacated_space =  200
+time=                  300
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    0 || uni_vacated_space =  500 || vacated_space =  200
+time=                  305
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    1 || uni_vacated_space =  500 || vacated_space =  199
+time=                  315
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    2 || uni_vacated_space =  500 || vacated_space =  198
+time=                  325
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    3 || uni_vacated_space =  500 || vacated_space =  197
+time=                  335
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    4 || uni_vacated_space =  500 || vacated_space =  196
+time=                  345
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    5 || uni_vacated_space =  500 || vacated_space =  195
+time=                  355
+: car_entered = 1 || is_uni_car_entered = 0 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    6 || uni_vacated_space =  500 || vacated_space =  194
+time=                  360
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    0 || parked_car =    6 || uni_vacated_space =  500 || vacated_space =  194
+time=                  365
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    1 || parked_car =    6 || uni_vacated_space =  499 || vacated_space =  194
+time=                  375
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    2 || parked_car =    6 || uni_vacated_space =  498 || vacated_space =  194
+time=                  385
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    3 || parked_car =    6 || uni_vacated_space =  497 || vacated_space =  194
+time=                  395
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    4 || parked_car =    6 || uni_vacated_space =  496 || vacated_space =  194
+time=                  405
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    5 || parked_car =    6 || uni_vacated_space =  495 || vacated_space =  194
+time=                  415
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    6 || parked_car =    6 || uni_vacated_space =  494 || vacated_space =  194
+time=                  425
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    6 || uni_vacated_space =  493 || vacated_space =  194
+time=                  430
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    6 || uni_vacated_space =  493 || vacated_space =  194
+time=                  435
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    5 || uni_vacated_space =  493 || vacated_space =  195
+time=                  445
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    4 || uni_vacated_space =  493 || vacated_space =  196
+time=                  455
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    3 || uni_vacated_space =  493 || vacated_space =  197
+time=                  465
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    2 || uni_vacated_space =  493 || vacated_space =  198
+time=                  475
+: car_entered = 0 || is_uni_car_entered = 0 || car_exited = 1 || is_uni_car_exited = 0 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    1 || uni_vacated_space =  493 || vacated_space =  199
+time=                  480
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    7 || parked_car =    1 || uni_vacated_space =  493 || vacated_space =  199
+time=                  485
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    8 || parked_car =    1 || uni_vacated_space =  492 || vacated_space =  199
+time=                  495
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =    9 || parked_car =    1 || uni_vacated_space =  491 || vacated_space =  199
+time=                  505
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   10 || parked_car =    1 || uni_vacated_space =  490 || vacated_space =  199
+time=                  515
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   11 || parked_car =    1 || uni_vacated_space =  489 || vacated_space =  199
+time=                  525
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   12 || parked_car =    1 || uni_vacated_space =  488 || vacated_space =  199
+time=                  535
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   13 || parked_car =    1 || uni_vacated_space =  487 || vacated_space =  199
+time=                  545
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   14 || parked_car =    1 || uni_vacated_space =  486 || vacated_space =  199
+time=                  555
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   15 || parked_car =    1 || uni_vacated_space =  485 || vacated_space =  199
+time=                  565
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   16 || parked_car =    1 || uni_vacated_space =  484 || vacated_space =  199
+time=                  575
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   17 || parked_car =    1 || uni_vacated_space =  483 || vacated_space =  199
+time=                  585
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   18 || parked_car =    1 || uni_vacated_space =  482 || vacated_space =  199
+time=                  595
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   19 || parked_car =    1 || uni_vacated_space =  481 || vacated_space =  199
+time=                  615
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   20 || parked_car =    1 || uni_vacated_space =  480 || vacated_space =  199
+time=                  625
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   21 || parked_car =    1 || uni_vacated_space =  479 || vacated_space =  199
+time=                  635
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   22 || parked_car =    1 || uni_vacated_space =  478 || vacated_space =  199
+time=                  645
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   23 || parked_car =    1 || uni_vacated_space =  477 || vacated_space =  199
+time=                  655
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   24 || parked_car =    1 || uni_vacated_space =  476 || vacated_space =  199
+time=                  665
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   25 || parked_car =    1 || uni_vacated_space =  475 || vacated_space =  199
+time=                  675
+: car_entered = 1 || is_uni_car_entered = 1 || car_exited = 0 || is_uni_car_exited = 1 >>>>> uni_is_vacated_space = 1 ||is_vacated_space = 1 
+|| uni_parked_car =   26 || parked_car =    1 || uni_vacated_space =  474 || vacated_space =  199

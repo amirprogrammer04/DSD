@@ -13,3 +13,6 @@ After running above commands you can see performance of the cicruit by the prepa
 You can refer to doc folder to see explanation of the project and refer to code folder to see code of the project. Also i prepared the output of the simulation and also the vcd file and uploded in the doc file.
 ## Authers
 [Amirhossein Mohammadpour](https://github.com/amirprogrammer04)
+
+#Note
+First Doc file had some problem that i fixed in the second, althouth because it is after 9 a.m, first one is also Ok.  

@@ -89,7 +89,7 @@ module Parking_TB();
         #300 car_entered = 1;
         #60 is_uni_car_entered = 1;
         #70 car_entered = 0; is_uni_car_entered = 0; car_exited = 1; is_uni_car_exited = 0;
-        #70 car_entered = 1; is_uni_car_entered = 1; car_exited = 0; is_uni_car_exited = 1;
+        #60 car_entered = 1; is_uni_car_entered = 1; car_exited = 0; is_uni_car_exited = 1;
         #200 $finish();
     end
 

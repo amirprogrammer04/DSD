@@ -2,13 +2,13 @@ module Parking #(parameter uni_vacated_space_initial=500, parameter time_initial
 parameter vacated_space_initial=200,parameter public_capacity_initial=200)
 (input car_entered, is_uni_car_entered, car_exited, is_uni_car_exited, clk,
     output reg uni_is_vacated_space, is_vacated_space,
-    output reg [9:0] uni_parked_car, parked_car, uni_vacated_space, vacated_space,output wire [6:0]time_counter,output reg[4:0] timer_hour);
+    output reg [9:0] uni_parked_car, parked_car, uni_vacated_space, vacated_space,output reg[4:0] timer_hour);
 
     reg [9:0] university_capacity;
     wire hour;
     reg [9:0] public_capacity;
     reg [9:0] changed_capacity;
-
+    reg [4:0] day_counter;
     initial begin
         parked_car = 0;
         uni_vacated_space = uni_vacated_space_initial;
@@ -17,9 +17,10 @@ parameter vacated_space_initial=200,parameter public_capacity_initial=200)
         university_capacity = university_capacity_initial;
         vacated_space = vacated_space_initial;
         public_capacity = public_capacity_initial;
+        day_counter=0;
     end
 
-    Counter #(60) counter(clk, hour,time_counter);
+    Counter #(60) counter(clk, hour);
     always @(posedge hour or posedge clk) begin
         if (hour) begin
 			   timer_hour = timer_hour + 1;
@@ -53,13 +54,20 @@ parameter vacated_space_initial=200,parameter public_capacity_initial=200)
 				end
 		  end   if(timer_hour%24==0)
                     timer_hour=0;
+                if(timer_hour==1)begin
+                    day_counter=day_counter+1;
+                end
+                if(day_counter!=0)begin
+                    uni_vacated_space=500-uni_parked_car;
+                    vacated_space=200-parked_car;
+                end
     end
 endmodule
-module Counter #(parameter n = 60) (input clk, output reg hour,output reg[6:0] count);
-    
+module Counter #(parameter n = 60) (input clk, output reg hour);
+    reg [6:0]count;
     initial begin
         hour = 0;
-        count = 0;
+        count=0;
     end
 
     always @(posedge clk) begin
@@ -76,14 +84,13 @@ module Parking_TB();
     reg car_entered, is_uni_car_entered, car_exited, is_uni_car_exited,clk;
     wire uni_is_vacated_space, is_vacated_space;
     wire [9:0] uni_parked_car, parked_car, uni_vacated_space, vacated_space;
-    wire [6:0]time_counter;
     wire [4:0]time_hour;
 
     always
         #5 clk = ~clk;
 
     Parking #(500,8,500,200,200)parking(car_entered, is_uni_car_entered, car_exited, is_uni_car_exited,clk,
-    uni_is_vacated_space, is_vacated_space,uni_parked_car, parked_car, uni_vacated_space, vacated_space,time_counter,time_hour);
+    uni_is_vacated_space, is_vacated_space,uni_parked_car, parked_car, uni_vacated_space, vacated_space,time_hour);
           
     initial begin
         car_entered=0;
@@ -99,8 +106,8 @@ module Parking_TB();
     end
 
     initial begin
-        $monitor("time= %d:%d\n: car_entered = %b || is_uni_car_entered = %b || car_exited = %b || is_uni_car_exited = %b >>>>> uni_is_vacated_space = %d ||",
-        time_hour,time_counter, car_entered, is_uni_car_entered, car_exited, is_uni_car_exited,uni_is_vacated_space,
+        $monitor("time= %t\nhour=%d \n car_entered = %b || is_uni_car_entered = %b || car_exited = %b || is_uni_car_exited = %b >>>>> uni_is_vacated_space = %d ||",
+        $time,time_hour, car_entered, is_uni_car_entered, car_exited, is_uni_car_exited,uni_is_vacated_space,
          "is_vacated_space = %d \n|| uni_parked_car = %d || parked_car = %d || uni_vacated_space = %d || vacated_space = %d",
          is_vacated_space,uni_parked_car, parked_car, uni_vacated_space, vacated_space);
     end
